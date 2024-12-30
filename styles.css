@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .video-section video {
+    width: 50%; /* Adjust the width as needed */
+    height: 50%; /* Maintain aspect ratio */
+  }
+  
+ 
+
+  .modal-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-video video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .elementor-widget-container {
+    /* Set the desired width and height */
+    width: 300px;
+    height: 200px;
+  }
+  
+  .elementor-widget-container video {
+    /* Ensure video fills the container */
+    width: 100%;
+    height: 100%;
+    /* Optional: Maintain aspect ratio if needed */
+    object-fit: cover;
+  }
+
+  .btn-success {
+    display: block;
+    margin: 0 auto;
+  }
+  
+} 
